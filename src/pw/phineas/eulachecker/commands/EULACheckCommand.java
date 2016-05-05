@@ -10,7 +10,7 @@ import pw.phineas.eulachecker.utils.HashConverter;
 /**
  * Created by Phineas (phineas.pw) on 04/05/2016.
  */
-public class EULACheck implements CommandExecutor {
+public class EULACheckCommand implements CommandExecutor {
 
     String prefix = ChatColor.RED + "Blocklist Check> ";
 

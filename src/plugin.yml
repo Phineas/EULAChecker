@@ -1,7 +1,7 @@
 name: EULAChecker
 author: Phineas
 version: 1.0
-main: pw.phineas.eulachecker.Core
+main: pw.phineas.eulachecker.EULAChecker
 
 commands:
    eulacheck:

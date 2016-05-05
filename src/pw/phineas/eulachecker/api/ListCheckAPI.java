@@ -6,7 +6,7 @@ import pw.phineas.eulachecker.utils.HashConverter;
 /**
  * Created by Phineas (phineas.pw) on 05/05/2016.
  */
-public class EULAChecker implements IEULAChecker {
+public class ListCheckAPI implements IListCheckAPI {
 
     public boolean isServerBlocked(String ip) {
         String blockList;
