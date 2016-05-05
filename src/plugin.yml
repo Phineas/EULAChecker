@@ -1,0 +1,8 @@
+name: EULAChecker
+author: Phineas
+version: 1.0
+main: pw.phineas.eulachecker.Core
+
+commands:
+   eulacheck:
+      description: Check if a server is blacklisted in the EULA
