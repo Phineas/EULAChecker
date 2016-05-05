@@ -39,6 +39,8 @@ public class EULACheck implements CommandExecutor {
                     sender.sendMessage(prefix + ChatColor.GRAY + "Server " + ChatColor.YELLOW + serverToCheck + ChatColor.GRAY + " is not in the Mojang EULA blacklist!");
                 }
             }
+        } else {
+            sender.sendMessage(prefix + ChatColor.GRAY + "You do not have permission to execute this command!");
         }
         return false;
     }
